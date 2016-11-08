@@ -8,6 +8,8 @@
     <string>com.github.mosen.pkg.Photoshop</string>
     <key>Input</key>
     <dict>
+        <key>developer</key>
+        <string>Adobe</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.2.0</string>
@@ -20,13 +22,9 @@
             <dict>
                 <key>product_id</key>
                 <string>PHSP</string>
-                <key>platform_id</key>
-                <string>osx10-64</string>
+                <key>base_version</key>
+                <string>18.0</string>
             </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string></string>
         </dict>
     </array>
 </dict>
