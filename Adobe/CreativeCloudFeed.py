@@ -25,7 +25,8 @@ from autopkglib import Processor, ProcessorError
 __all__ = ["CreativeCloudFeed"]
 
 BASE_URL = 'https://prod-rel-ffc-ccm.oobesaas.adobe.com/adobe-ffc-external/core/v4/products/all'
-# URL = 'https://prod-rel-ffc-ccm.oobesaas.adobe.com/adobe-ffc-external/core/v4/products/all?&channel=ccm&channel=sti&platform=osx10&platform=osx10-64&payload=true&productType=Desktop&_type=json'
+
+# Sap Codes can be seen at https://helpx.adobe.com/creative-cloud/packager/apps-deployed-without-their-base-versions.html
 
 class CreativeCloudFeed(Processor):
     """Fetch information about product(s) from the Creative Cloud products feed."""
